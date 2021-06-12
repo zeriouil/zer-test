@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>fomulaire</title>
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<form>
+	<h1>INFO DE PROFIL</h1>
+	<fieldset>
+<div>
+	<input type="radio">Femme</button> <input type="radio" checked>Homme</button> <br> 
+	<input type="checkbox">Oui, je suis une societé</input> </div>
+	<div>
+		<label> Nom Societé :</label> </br>
+	<input type="text" placeholder=""size="25" >
+	 <br>
+	<label>Titre Profile*:</label> <br>
+	 <input type="text" placeholder="EX: Developeur Senior en PhP" " size="25"  ></br>
+	 <label>Tel*:</label> <br>
+	 <input type="text" size="25"  >
+	</div>
+	<br>
+	<select>
+		<option  selected hidden>-Veuillez Choisir-</option>
+		<option>oujda</option>
+		<option>casablanca</option>
+		<option>agadir</option>
+	</select>
+	</fieldset>
+        <fieldset>
+        	<label>Disponibilté:*</label><br>
+        	<input type="checkbox" name="" ><label>(A Distance Uniquement)</label><br>
+        	<label>Tarif:*</label><br>
+        	<input type="text" name=""placeholder="Ex:400 DH"> <LABEL>DH/jour</LABEL><br><br>
+        	<br>
+        	<label>Compétence Maitrisées :</label></br>
+        	<select id="Comp">
+        		<option >PHP/SQL</option>
+        		<option>Java Script</option>
+        		<option>Python</option>
+s
+
+        	</select>
+        	<select id="level">
+        		<option >Senior</option>
+        		<option>Intermediaire</option>
+        		<option>Débutant</option>
+
+
+        	</select>
+        	<button onclick="ajouter()">ajouter</button> <br> 	
+        	<label>liste De Vos Copmetences</label><br>
+        	<select multiple="liste" id="liste"></select><br>
+        	<button>Validez</button>
+
+
+
+        </fieldset>
+</form>
+
+</body>
+</html>
